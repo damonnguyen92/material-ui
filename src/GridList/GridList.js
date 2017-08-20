@@ -39,6 +39,7 @@ function GridList(props) {
         const childRows = currentChild.props.rows || 1;
 
         return React.cloneElement(currentChild, {
+          className: itemClassName ? itemClassName: '',
           style: Object.assign(
             {
               width: `${100 / cols * childCols}%`,
