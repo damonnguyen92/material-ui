@@ -23,6 +23,7 @@ function GridList(props) {
     children,
     classes,
     className: classNameProp,
+    itemClassName,
     component: ComponentProp,
     style,
     ...other
